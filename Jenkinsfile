@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages {
-        stage('hotfix branch') {
+        stage('hotfix') {
             steps {
                 sh 'echo "hotfix branch" '
             }
